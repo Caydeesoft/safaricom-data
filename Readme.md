@@ -9,6 +9,8 @@ $ composer require caydeesoft/safaricom-data
 ```
 Thereafter you will need to generate the config file, the file name will be ***data.php***.
 
+
+
 ```shell
 $ php artisan vendor:publish --provider="Caydeesoft\SafaricomData\DataServiceProvider" --tag="data-config"
 ```
