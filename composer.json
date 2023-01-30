@@ -1,0 +1,31 @@
+{
+    "name": "caydeesoft/safaricom-data",
+    "description": " integration for safaricom redemeble data",
+    "keywords": ["Safaricom", "Data"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Kiptugen",
+            "email": "dennis.kiptoo@caydeesoft.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0|^8.1|^8.2",
+        "illuminate/routing": "^7|^8|^9",
+        "illuminate/session": "^7|^8|^9",
+        "illuminate/support": "^7|^8|^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Caydeesoft\\SafaricomData\\": "../safaricom-data/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Caydeesoft\\SafaricomData\\DataServiceProvider"
+            ]
+        }
+    }
+
+}
