@@ -2,11 +2,13 @@
     "name": "caydeesoft/safaricom-data",
     "description": " integration for safaricom redemeble data",
     "keywords": ["Safaricom", "Data"],
+    "homepage": "https://github.com/caydeesoft/safaricom-data",
     "license": "MIT",
     "authors": [
         {
             "name": "Dennis Kiptugen",
-            "email": "dennis.kiptoo@caydeesoft.com"
+            "email": "dennis.kiptoo@caydeesoft.com",
+            "homepage": "https://www.caydeesoft.com"
         }
     ],
     "require": {
@@ -26,6 +28,13 @@
                 "Caydeesoft\\SafaricomData\\DataServiceProvider"
             ]
         }
-    }
+    },
+    "prefer-stable": true,
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/caydeesoft"
+        }
+    ]
 
 }
